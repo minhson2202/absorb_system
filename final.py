@@ -416,8 +416,8 @@ def main():
     print("Current Working Directory:", os.getcwd())
     print("Files in Directory:", os.listdir(os.getcwd()))
 
-    truth_file_path = 'truth1.pla.txt'  
-    bbtas_file_path = 'bbtas_k2k_fr.pla.txt'  
+    truth_file_path = 'sand_k2k_min.pla'  
+    bbtas_file_path = 'sand_k2k_fr.pla'  
 
     if not all(os.path.exists(file_path) for file_path in [truth_file_path, bbtas_file_path]):
         print("One or more files are missing.")
